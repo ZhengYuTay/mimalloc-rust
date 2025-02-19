@@ -10,7 +10,7 @@ license = "MIT"
 members = ["mimalloc-rust-sys"]
 
 [dev-dependencies]
-lazy_static = "1.4.0"
+lazy_static = "1.5.0"
 
 [features]
 unstable = []
@@ -20,5 +20,5 @@ asm = ["mimalloc-rust-sys/asm"]
 skip-collect-on-exit = ["mimalloc-rust-sys/skip-collect-on-exit"]
 
 [dependencies]
-mimalloc-rust-sys = {path="./mimalloc-rust-sys", version = "2.1.2-source"}
+mimalloc-rust-sys = {path="./mimalloc-rust-sys", version = "2.1.9-source"}
 cty = "0.2"
